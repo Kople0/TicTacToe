@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.tictactoeField {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background-color: #000;
+    left: 200px;
+    top: 200px;
+    border-radius: 10px;
+}
+.field {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    transition-duration: 0.2s;
+}
+.field:not(.selected):hover {
+    background-color: #cccccc;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.field1 { left: 10px; top: 10px; }
+.field2 { left: 120px; top: 10px; }
+.field3 { left: 230px; top: 10px; }
+.field4 { left: 10px; top: 120px; }
+.field5 { left: 120px; top: 120px; }
+.field6 { left: 230px; top: 120px; }
+.field7 { left: 10px; top: 230px; }
+.field8 { left: 120px; top: 230px; }
+.field9 { left: 230px; top: 230px; }
+.fieldO {
+    background-color: #3380be;
+}
+.fieldX {
+    background-color: #ff6044;
+}
